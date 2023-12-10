@@ -17,8 +17,7 @@ The application consists in:
 * OPENAI API endpoints to interact with GPT 3.5 Turbo
 * CSV file that contains a list of prompts to be loaded in the application
 
-# Requirements to install and run the application(this repository includes all requirements needed except the api key)
-## Create a Python virtual environment, install OPENAI library and setting up the application
+# Requirements to install and run the application
 1. Install Python.
 2. Clone this repository
 3. Install flask
