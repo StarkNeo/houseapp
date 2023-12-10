@@ -24,15 +24,11 @@ The application consists in:
 1. Install Python.
 2. Clone this repository
 3. Install flask
-4.  Inside houseapp directory install PYTHON OPENAI LIBRARY
-5. Configure your API_KEY
-
 4. Navigate to housewebsite and install OPENAI Python Library with: pip install --upgrade openai
 5. Setup your API Key with: setx OPENAI_API_KEY "your-api-key-here"
-6. With the virtual environment activate, navigate to housewebsite and install Flask with: pip install flask
 
 # How to use the project
-1. Run the application with: python main.py
+1. Run the application with: python app.py
 2. Once the application is running you can see the home page in your localhost or http://localhost:5000
 3. Select the type of question you prefer, example typying text or select and option from the drop down
 4. Send the question

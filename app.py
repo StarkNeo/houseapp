@@ -21,9 +21,8 @@ def index():
         input = data['input-text'] if data['question-type'] == 'text' else data['option']
         logger.info(input)
         logger.info(data)
-        #textResponse =consultant(input)
-        #textToAudio(textResponse)
-        textResponse ="no response"
+        textResponse =consultant(input)
+        textToAudio(textResponse)
         return render_template("./index.html", questions=question_types,select=options, textResponse=textResponse)
 
     else:
